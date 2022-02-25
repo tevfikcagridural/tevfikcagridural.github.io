@@ -2,6 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
+
 # Setup
 title:            Tevfik Çağrı Dural
 tagline:          'curious'
