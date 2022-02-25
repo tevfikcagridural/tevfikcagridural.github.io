@@ -2,13 +2,12 @@
 markdown:         kramdown
 highlighter:      rouge
 
-
 # Setup
-title:            Tevfik Cagri Dural
-tagline:          'curious'
-description:      'I'm just curious about stuff that excites me. And this is my learning log'
+title:            Hydeout
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://fongandrew.github.io
-baseurl:          '/'
+baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
