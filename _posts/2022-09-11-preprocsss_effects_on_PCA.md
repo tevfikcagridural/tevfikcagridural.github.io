@@ -1,7 +1,15 @@
 ---
-layout: post
 title: Preprocess Effects On PCA
-excerpt_separator:  <!--more-->
+date: 2022-09-11
+tags:
+- machine learning
+- PCA
+- preprocess
+- scaling
+- normalize
+layout: post
+description: 'Understanding different preprocess effects on PCA'
+author: Tevfik Çağrı Dural
 ---
 
 I came up with [this](https://www.reddit.com/r/datascience/comments/x89x48/is_it_normal_that_more_than_90_of_the_pca/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) post on reddit few days ago and it seemed like people separeted in to two about scaling/normalizing the data before applying PCA.
@@ -17,7 +25,7 @@ In this post I'm going to examine this. Studied colab notebook file can be found
 
 
 ## No Preprocess
-![explained_variance_no_preprocess](/_posts/img/preprocess_effects_on_pca/explained_variance_no_preprocess.png)
+![explained_variance_no_preprocess](/images/preprocess_effects_on_pca/explained_variance_no_preprocess.png)
 
 --
 
