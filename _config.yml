@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      coderay
 
 # Setup
-title:            Tevikf Cagri Dural
+title:            Tevfik Cagri Dural
 tagline:          'A Jekyll theme'
 description:      'log of personal learning process'
 url:              https://tevfikcagridural.github.io
