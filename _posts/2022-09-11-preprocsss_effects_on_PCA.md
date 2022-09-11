@@ -13,11 +13,11 @@ In this post I'm going to examine this. Studied colab notebook file can be found
 ## What is PCA
 
 
-## Scaling - Normlizing Methods
+## Understanding Scaling - Normlizing Methods
 
 
 ## No Preprocess
-![explained_variance_no_preprocess](./img/preprocess_effects_on_pca/explained_variance_no_preprocess.png)
+<img src="./img/preprocess_effects_on_pca/explained_variance_no_preprocess.png">
 
 --
 
