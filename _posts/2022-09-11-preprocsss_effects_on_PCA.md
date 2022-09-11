@@ -29,24 +29,24 @@ In this post I'm going to examine this. Studied colab notebook file can be found
 
 --
 
-![covariance_matrix_no_preprocess](./img/preprocess_effects_on_pca/covariance_matrix_no_preprocess.png)
+![covariance_matrix_no_preprocess](/images/preprocess_effects_on_pca/covariance_matrix_no_preprocess.png)
 
 ## Standard Scaling
-![explained_variance_standard_scaling](./img/preprocess_effects_on_pca/explained_variance_standard_scaling.png)
+![explained_variance_standard_scaling](/images/preprocess_effects_on_pca/explained_variance_standard_scaling.png)
 
-![covariance_matrix_standard_scaling](./img/preprocess_effects_on_pca/covariance_matrix_standard_scaling.png)
+![covariance_matrix_standard_scaling](/images/preprocess_effects_on_pca/covariance_matrix_standard_scaling.png)
 
 But why?
 
 ## Min Max Scaling
-![explained_variance_minmaxscale](./img/preprocess_effects_on_pca/explained_variance_minmaxscale.png)
+![explained_variance_minmaxscale](/images/preprocess_effects_on_pca/explained_variance_minmaxscale.png)
 
-![covariance_matrix_minmaxscale](./img/preprocess_effects_on_pca/covariance_matrix_minmaxscale.png)
+![covariance_matrix_minmaxscale](/images/preprocess_effects_on_pca/covariance_matrix_minmaxscale.png)
 
 ## Normalizing
-![explained_variance_normalized](./img/preprocess_effects_on_pca/explaine_variance_normalized.png)
+![explained_variance_normalized](/images/preprocess_effects_on_pca/explaine_variance_normalized.png)
 
-![covariance_matrix_normalize](./img/preprocess_effects_on_pca/covariance_matrix_normalized.png)
+![covariance_matrix_normalize](/images/preprocess_effects_on_pca/covariance_matrix_normalized.png)
 
 
 
