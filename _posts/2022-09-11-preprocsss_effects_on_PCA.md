@@ -21,7 +21,7 @@ In this post I'm going to examine this. Studied colab notebook file can be found
 
 --
 
-![covariance_matrix_no_preprocess](./img/preprocess_effects_on_pca/covariance_matrix_no_preprocess.png)
+![covariance_matrix_no_preprocess](._posts/img/preprocess_effects_on_pca/covariance_matrix_no_preprocess.png)
 
 ## Standard Scaling
 ![explained_variance_standard_scaling](./img/preprocess_effects_on_pca/explained_variance_standard_scaling.png)
