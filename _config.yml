@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      coderay
 
 # Setup
-title:            Tevfik Cagri Dural
-tagline:          'A Jekyll theme'
-description:      'log of personal learning process'
+title:            Tevfik Çağri Dural
+tagline:          ''
+description:      ''
 url:              https://tevfikcagridural.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
