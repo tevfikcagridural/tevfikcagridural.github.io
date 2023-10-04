@@ -16,7 +16,7 @@ I came up with [this](https://www.reddit.com/r/datascience/comments/x89x48/is_it
 
 I was interested in the subject and found [this](https://stats.stackexchange.com/questions/69157/why-do-we-need-to-normalize-data-before-principal-component-analysis-pca)
 
-In this post I'm going to examine this. Studied colab notebook file can be found in [here]()
+In this post I'm going to examine this. Studied colab notebook file can be found in [here](../_notebooks/Prepocessing_effects_on_PCA.ipynb)
 
 ## What is PCA
 
