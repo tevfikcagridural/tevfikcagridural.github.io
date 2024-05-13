@@ -52,5 +52,6 @@ _config.dev.yml
 CONTRIBUTING.md
 README.md
 LICENSE.md
-edge-case.md
-markup.md
+category/edge-case.md
+category/markup.md
+_post/_older_posts/*
