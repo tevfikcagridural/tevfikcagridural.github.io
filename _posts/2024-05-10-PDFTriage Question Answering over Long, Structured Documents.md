@@ -5,8 +5,6 @@ tags:
 id: 66ad6e92-5852-480f-a15f-d10fd3dfe7ff
 ---
 
-# PDFTriage: Question Answering over Long, Structured Documents
-
 ## General Thoughts
 Overall I like the idea of creating metadata and functions. But usage of each function will blow up the total token. Regarding to table 3 and figure 13 this approach does not create miracles. There is no embedding can be used with graph databases..
 [Paper link](https://arxiv.org/pdf/2309.08872.pdf)
