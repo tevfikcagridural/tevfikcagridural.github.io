@@ -49,5 +49,4 @@ But why?
 ![covariance_matrix_normalize](/images/preprocess_effects_on_pca/covariance_matrix_normalized.png)
 
 
-
 ## Conclusion
