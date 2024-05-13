@@ -47,11 +47,3 @@ Gemfile.lock
 _config.dev.yml
 .vscode
 *.gem
-
-# Files from original repo
-CONTRIBUTING.md
-README.md
-LICENSE.md
-category/edge-case.md
-category/markup.md
-_post/_older_posts/*
