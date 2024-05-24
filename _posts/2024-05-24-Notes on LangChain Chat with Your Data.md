@@ -1,12 +1,12 @@
 ---
 tags:
-    -vector_database  
-    -RAG 
-    -LangChain 
-    -chroma 
-    -similarity_search 
-    -max_marginal_relevance 
-    -prompt
+    - vector_database  
+    - RAG 
+    - LangChain 
+    - chroma 
+    - similarity_search 
+    - max_marginal_relevance 
+    - prompt
 ---
 
 This course is a brief introduction to LangChain and base of a RAG pipeline. A very basic approach. That **covers only a small part of LangChain environment**. 
