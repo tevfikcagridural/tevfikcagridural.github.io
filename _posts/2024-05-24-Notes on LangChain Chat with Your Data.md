@@ -1,6 +1,19 @@
-This course is a brief introduction to LangChain and base of a RAG pipeline. A very basic approach. That **covers only a small part of LangChain environment**. 
+---
+tags:
+    -vector_database  
+    -RAG 
+    -LangChain 
+    -chroma 
+    -similarity_search 
+    -max_marginal_relevance 
+    -prompt
+---
 
-![[basic_rag_structure.jpg| Suggested Structure]]
+This course is a brief introduction to LangChain and base of a RAG pipeline. A very basic approach. That **covers only a small part of LangChain environment**. 
+[Course link](http://learn.deeplearning.ai/langchain-chat-with-your-data/?_gl=1*1t5umpl*_ga*Mzg2ODM2Mi4xNzE1Njc1Nzg0*_ga_PZF1GBS1R1*MTcxNjU1NzY0OC4xMC4xLjE3MTY1NTkwNDEuNTIuMC4w)
+
+![Suggested Structure](/images/2024-05-24-Notes%20on%20LangChain%20Chat%20with%20Your%20Data/basic_rag_structure.jpg)<sub>Resource: Course Documents</sub>
+
 ## Document Loading
 LangChain has **More than 80 documents loaders**. In this course 3 of them are mentioned.
 - ***PDFs***: Of course the most used is *PyPDFLoader*, the thing here is I prefer *PyMuPDF*. Especially for its support on *tesseract*
@@ -20,15 +33,15 @@ For example if the list is `["\n\n", "\n", "\n\t\, ".", ""]` the text first spli
 **As of 24.05.2024 this method is still in `langchain_experimental` library.**
 This method uses an embedding model first to read the whole text then creates chunks that are semantically similar within a chunk. Therefore it doesn't use an explicit separator. Instead it uses **breakpoints** which are:
 
-> [!quote]- Percentile:
+> **Percentile:**
 > In this method, all differences between sentences are calculated, and then any difference greater than the X percentile is split.
 > **Default: 0.95**
 
-> [!quote]- Standard Deviation
+> **Standard Deviation**
 > In this method, any difference greater than X standard deviations is split.
 > **Default: 3**
 
-> [!quote]- Interquartile
+> **Interquartile**
 > In this method, the interquartile distance is used to split chunks.
 > **Default: 1.5**
 
@@ -40,9 +53,7 @@ This tutorial only covers chroma as vector database and uses `similarity_search`
 To overcome **duplicated reposes** suggests `max_marginal_relevance_score` 
 Additional to these methods, also there are some more advanced retrievers. For example, if user asks for a specific document that needs to be filtered through metadata (eg. "What did say about regression in *third lecture*?"), `SelfQueryRetriever` can generate a filter for metadata from the given query. 
 
-<div markdown="span" class="bs-callout bs-callout-{{include.type}}"><span class="calloutTitle">{{include.title}}</span><br/><br/>{{include.content}}</div>
-
-> [!WARNING]- Strict Prompt
+> **Strict Prompt**
 >  Descriptions are really important as they are passed to the LLM and expected response will include parts from these descriptions. It's really important them to be clear and detailed.
 
 ### Compression
@@ -58,11 +69,12 @@ Covers creation of a prompt template and a simple usage from `langchain.chains` 
 The issue they focus here is another approach for handling of retrieved chunks. Instead of using them all together at once. But what if all the chunks, prompts, query are exceeds the context length of the LLM?  The course suggests three chain types. One another thing that these methods also add another call to LLM. 
 
 
-> [!WARNING]- Concerns
+> **Concerns**
 > First, these methods adds additional calls to LLM, resulting more tokens and latency. Second, if the chunks included in these techniques contain irrelevant information, they may end up in confusing the LLM. Therefore, having even worse results.
 
 
-![[chain_types_for_retrieved_chunk_handling.png]]
+![Chain  Types](/images/2024-05-24-Notes%20on%20LangChain%20Chat%20with%20Your%20Data/chain_types_for_retrieved_chunk_handling.png)
+<sub>Resource: Course documents</sub>
 
 ### Map Reduce
 In this technique all the chunks sent to LLM to get an answer. And then all of these answers are combined with an LLM into one answer.
@@ -73,6 +85,3 @@ Again all the retrieved chunks sent to LLM with the query and then asked to answ
 
 ## Memory
 Adds memory to the chat that created in Question Answering so followup question can be asked.
-
----
-#vector-database  #RAG #LangChain #chroma #similarity-search #max-marginal-relevance #prompt
