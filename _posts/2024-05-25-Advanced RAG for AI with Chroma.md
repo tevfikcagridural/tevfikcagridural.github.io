@@ -8,7 +8,6 @@ tags:
     - embedding 
 ---
 
-
 [Course Link](https://learn.deeplearning.ai/accomplishments/d540d1c3-69d5-442d-99f7-498c3650783b)
 
 This course basically covers 4 main concepts:
