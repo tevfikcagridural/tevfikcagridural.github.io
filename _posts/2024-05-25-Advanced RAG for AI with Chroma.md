@@ -24,13 +24,7 @@ In this option the LLM asked to generate similar questions. Then with these augm
 ## Reranking
 Especially a cross-encoder reranking. Where the returned answers reranked within and the query by a reranking model. The options can be: Cross-Encoders, Bi-Encoders, Hybrid approaches and an LLM model to be prompted act as a reranking model.
 
-{% include collapsible.html type="danger" title="ChatGPT-4o Generated details of first 3 options" content="a"%}
-{% include collapsible.html type="info" title="ChatGPT-4o Generated details of first 3 options" content="a"%}
-{% include collapsible.html type="warning" title="ChatGPT-4o Generated details of first 3 options" content="a"%}
-
-## FAQ Section
-
-{% include collapsible.html type="quote" title="ChatGPT-4o Generated details of first 3 options" content="
+{% include collapsible.html type="quote" title="**ChatGPT-4o Generated details of first 3 options**" content="
 ### Cross-Encoders 
 **Cross-Encoders** are a specific type of neural network model where the query and each candidate document are concatenated and passed through the model together. This allows the model to consider the interactions between the query and the document in a detailed manner, leading to high accuracy in ranking. The main characteristics are:
  
