@@ -18,10 +18,10 @@
 /* Specific callout styles */
 /*Danger*/
 .collapsible.danger {
-  border-color: #f44336;
+  border-color: #ef6e65;
 }
 .collapsible.danger .collapsible-header {
-  background-color: #f44336;
+  background-color: #ef6e65;
   color: white;
 }
 .collapsible.danger .collapsible-header::before {
@@ -33,10 +33,10 @@
 
 /*Info*/
 .collapsible.info {
-  border-color: #2196F3;
+  border-color: #74b9f1;
 }
 .collapsible.info .collapsible-header {
-  background-color: #2196F3;
+  background-color: #74b9f1;
   color: white;
 }
 .collapsible.info .collapsible-header::before {
@@ -47,10 +47,10 @@
 
 /*Warning*/
 .collapsible.warning {
-  border-color: #eb9e4a;
+  border-color: #e8ae71;
 }
 .collapsible.warning .collapsible-header {
-  background-color: #eb9e4a;
+  background-color: #e8ae71;
   color: white;
 }
 .collapsible.warning .collapsible-header::before {
@@ -61,10 +61,10 @@
 
 /*Qutotation*/
 .collapsible.quote {
-  border-color: #f2f2f2;
+  border-color: #dbdada;
 }
 .collapsible.qutoe .collapsible-header {
-  background-color: #f2f2f2;
+  background-color: #dbdada;
   color: white;
 }
 .collapsible.qutoe .collapsible-header::before {

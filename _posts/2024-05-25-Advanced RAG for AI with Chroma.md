@@ -28,7 +28,6 @@ Especially a cross-encoder reranking. Where the returned answers reranked within
 {% include collapsible.html type="info" title="ChatGPT-4o Generated details of first 3 options" content="a"%}
 {% include collapsible.html type="warning" title="ChatGPT-4o Generated details of first 3 options" content="a"%}
 
-
 ## FAQ Section
 
 {% include collapsible.html type="quote" title="ChatGPT-4o Generated details of first 3 options" content="
