@@ -1,0 +1,18 @@
+/* collapsible.css */
+.collapsible {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .collapsible-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .collapsible-content {
+    padding: 10px;
+    display: none;
+  }
+  
