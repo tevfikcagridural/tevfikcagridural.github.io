@@ -1,18 +1,74 @@
 /* collapsible.css */
 .collapsible {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  .collapsible-header {
-    background-color: #f1f1f1;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .collapsible-content {
-    padding: 10px;
-    display: none;
-  }
-  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.collapsible-header {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.collapsible-content {
+  padding: 10px;
+  display: none;
+}
+
+/* Specific callout styles */
+/*Danger*/
+.collapsible.danger {
+  border-color: #f44336;
+}
+.collapsible.danger .collapsible-header {
+  background-color: #f44336;
+  color: white;
+}
+.collapsible.danger .collapsible-header::before {
+  content: "U+1F525"; /* Unicode representation of the emoji */
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
+
+/*Info*/
+.collapsible.info {
+  border-color: #2196F3;
+}
+.collapsible.info .collapsible-header {
+  background-color: #2196F3;
+  color: white;
+}
+.collapsible.info .collapsible-header::before {
+  content: "U+2139"; /* Unicode representation of the emoji */
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
+/*Warning*/
+.collapsible.warning {
+  border-color: #eb9e4a;
+}
+.collapsible.warning .collapsible-header {
+  background-color: #eb9e4a;
+  color: white;
+}
+.collapsible.warning .collapsible-header::before {
+  content: "U+26A0"; /* Unicode representation of the emoji */
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
+/*Qutotation*/
+.collapsible.quote {
+  border-color: #f2f2f2;
+}
+.collapsible.qutoe .collapsible-header {
+  background-color: #f2f2f2;
+  color: white;
+}
+.collapsible.qutoe .collapsible-header::before {
+  content: "U+201E"; /* Unicode representation of the emoji */
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
