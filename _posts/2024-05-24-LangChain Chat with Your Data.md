@@ -8,9 +8,8 @@ tags:
     - max_marginal_relevance 
     - prompt
 ---
-
-This course is a brief introduction to LangChain and base of a RAG pipeline. A very basic approach. That **covers only a small part of LangChain environment**. 
 [Course link](http://learn.deeplearning.ai/langchain-chat-with-your-data/?_gl=1*1t5umpl*_ga*Mzg2ODM2Mi4xNzE1Njc1Nzg0*_ga_PZF1GBS1R1*MTcxNjU1NzY0OC4xMC4xLjE3MTY1NTkwNDEuNTIuMC4w)
+This course is a brief introduction to LangChain and base of a RAG pipeline. A very basic approach. That **covers only a small part of LangChain environment**. 
 
 ![Suggested Structure](/images/2024-05-24-Notes%20on%20LangChain%20Chat%20with%20Your%20Data/basic_rag_structure.jpg)<sub>Resource: Course Documents</sub>
 
