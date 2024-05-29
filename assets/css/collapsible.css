@@ -61,10 +61,10 @@
 
 /*Qutotation*/
 .collapsible.quote {
-  border-color: #dbdada;
+  border-color: #a7a7a7;
 }
 .collapsible.qutoe .collapsible-header {
-  background-color: #dbdada;
+  background-color: #a7a7a7;
   color: white;
 }
 .collapsible.qutoe .collapsible-header::before {
