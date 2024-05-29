@@ -1,3 +1,10 @@
+---
+tags:
+    - LlamaIndex 
+    - tool-usage 
+    - RAG 
+    - retrieval 
+---
 This course focuses on how to use routing and tool use with LlamaIndex. A real example of building an example of advanced RAG system. The system can route the query based on what's asked for. Then, also let LLMs use tools, again for necessity.
 
 ## Router Query Engine
@@ -36,6 +43,3 @@ To overcome this the course suggests building a tool retrieval approach.
 
 [^1]: Again, descriptions are important within the initialization of these indexes
 [^2]: Here I don't know why they didn't make a document/chunk independent tool. 
-
----
-#LlamaIndex #tool-usage #RAG #retrieval 
