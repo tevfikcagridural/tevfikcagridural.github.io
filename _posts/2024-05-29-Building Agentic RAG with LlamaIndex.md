@@ -12,7 +12,7 @@ An example of the tool's usage is similar to [LangChain's  Self-Query](https
 ## Building and Agent Reasoning Loop
 This is where things get advanced. Agents are a complex part of the RAG system and LlamaIndex. Agents are capable of using tools sequentially. Resulting to perform complicated tasks.
 
-{% include collapsible.html type="quote" header="[LlamaIndex's Definition of Agents](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/)" content="Data Agents are LLM-powered knowledge workers in LlamaIndex that can intelligently perform various tasks over your data, in both a “read” and “write” function. They are capable of the following:
+{% include collapsible.html type="quote" title="[LlamaIndex's Definition of Agents](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/)" content="Data Agents are LLM-powered knowledge workers in LlamaIndex that can intelligently perform various tasks over your data, in both a “read” and “write” function. They are capable of the following:
 - Perform automated search and retrieval over different types of data - unstructured, semi-structured, and structured.
 - Calling any external service API in a structured fashion, and processing the response + storing it for later." %}
 
