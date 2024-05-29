@@ -1,5 +1,5 @@
 <div class="collapsible {{ include.type }}">
-  <div class="collapsible-header">{{ include.title }}</div>
+  <div class="collapsible-header">{{ include.title | markdownify }}</div>
   <div class="collapsible-content">
     {{ include.content | markdownify }}
   </div>
