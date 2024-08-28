@@ -5,6 +5,8 @@ tags:
     - RAG 
     - retrieval 
 ---
+[Course Link](https://learn.deeplearning.ai/courses/building-agentic-rag-with-llamaindex/lesson/1/introduction)
+
 This course focuses on how to use routing and tool use with LlamaIndex. A real example of building an example of advanced RAG system. The system can route the query based on what's asked for. Then, also let LLMs use tools, again for necessity.
 
 ## Router Query Engine
